@@ -1,4 +1,4 @@
-PLUGIN_SOURCES = $(wildcard *.go)
+PLUGIN_SOURCES = $(wildcard plugins/*.go)
 PLUGIN_OBJECTS = $(PLUGIN_SOURCES:.go=.so)
 GO_BUILD_ARGS = -buildmode=plugin
 
